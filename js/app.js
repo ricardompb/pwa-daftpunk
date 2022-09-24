@@ -106,7 +106,7 @@ Template Engine
 
 card = function ({title, album, link, preview, title_short}){
 
-    let botao = navegacao == true ? `<div class="card-footer"><div class="d-grid gap-2"><a class="btn btn-info" target="_blank" href="${link}">Tocar no Deezer</a></div></div>` : "";
+    const botao = navegacao == true ? `<div class="card-footer"><div class="d-grid gap-2"><a class="btn btn-info" target="_blank" href="${link}">Tocar no Deezer</a></div></div>` : "";
 
     const { cover_medium } = album
 
