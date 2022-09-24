@@ -117,9 +117,7 @@ card = function ({title, album, link, preview, title_short}){
                     <h5 class="card-title">${title}</h5>                    
                     <p class="card-text">${title_short}</p>
                     <audio controls>
-                        <source src="horse.ogg" type="audio/ogg">
                         <source src="${preview}" type="audio/mpeg">
-                        Your browser does not support the audio element.
                     </audio>
                 </div>
                 ${botao}
